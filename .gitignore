@@ -1,0 +1,39 @@
+# Entorno virtual Python
+venv/
+.venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de datos local (no compartir — cada dispositivo tiene la suya)
+*.db
+*.sqlite
+*.sqlite3
+
+# Variables de entorno (contienen contraseñas y tokens)
+.env
+.env.local
+.env.*.local
+
+# Archivos de Claude Code
+.claude/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Archivos de build de Flet
+build/
+dist/
